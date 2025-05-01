@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ceci est la page de présentation de mon projet de cours.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>mediatekformation</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-icons">menu</span>
+                </button>
+                <a href="/" class="header-logo">
+                    <img src="img/html.jpg" alt="logo">
+                </a>
+                <nav>
+                    <ul class="header-menu">
+                        <li><a href="#contexte">Contexte</a></li>
+                        <li><a href="#outils">Outils</a></li>
+                        <li><a href="#objectif">Objectif</a></li>
+                        <li><a href="#documents">Documents</a></li>
+                        <li><a href="#compétences">Compétences</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <img src="img/mediatek-formation.png" class="slider-background" alt="img de fond du slider">
+        <div class="slider-content">
+            <h1>Mediatek86</h1>
+        </div>
+    </div>
+    <section id="contexte">
+        <div class="section dark">
+            <div class="boxed">
+                <div class="flex toColumn mCenter">
+                    <div class="w40 wm100">
+                        <h2>Contexte</h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <p> MediaTek86 est un réseau clé dans la gestion des bibliothèques du département de la Vienne,
+                            assurant la circulation des livres,
+                            DVD, et CD parmi les diverses bibliothèques, tout en se focalisant sur le développement de
+                            ressources numériques accessibles à tous.
+                            Avec l'ambition d'enrichir l'expérience proposée aux utilisateurs, MediaTek86 souhaite
+                            diversifier ses offres en introduisant des formations
+                            dédiées aux outils numériques pour ses membres, et en mettant à disposition des ressources
+                            d'auto-apprentissage en ligne. Cette initiative a mené
+                            à la création du site Mediatek Formation, marquant un pas en avant dans la stratégie de
+                            modernisation et d'élargissement des services de MediaTek86.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="outils">
+        <div class="section">
+            <div class="boxed">
+                <div class="flex toColumn mCenter">
+                    <div class="w40 wm100">
+                        <h2>Outils et langages utilisés :</h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <ul class="font-size">
+                            <li>IDE : Vscode</li>
+                            <li>Langages : PHP et Twig</li>
+                            <li>SGBD : MySQL</li>
+                            <li>Serveur Web : Symfony CLI (local), Wamp (local)</li>
+                            <li>Framework : Symfony</li>
+                            <li>Serveur d'authentification : Keycloak</li>
+                            <li>Machine virtuelle : Debian, Windows 10</li>
+                            <li>Versionning : Github</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="objectif">
+        <div class="section dark">
+            <div class="boxed">
+                <div class="flex toColumn mCenter">
+                    <div class="w40 wm100">
+                        <h2>Objectif :</h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <p>
+                            Je reprends le flambeau sur le projet de développement de l'application pour "Mediatek
+                            Formation".
+                            Mon rôle consiste à perfectionner le code existant, finaliser le back-office, et orchestrer
+                            le déploiement.
+                            Une tâche cruciale sera d'intégrer un mécanisme d'authentification externe via Keycloak. Les
+                            directives et les exigences s
+                            pécifiques du projet sont détaillées dans un cahier des charges fourni. Le développement
+                            s'appuie sur la version 5.4 de Symfony.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="documents">
+        <div class="section">
+            <div class="boxed text-center">
+                <h2>Documents</h2>
+                <div class="flex wrap gap20 space-between">
+                    <div class="w32 wm50 réalisation">
+                        <a href="fichier/compteRendu.docx" download="compteRendu.docx">
+                            <!--lien du compte rendu-->
+                            <img src="img/compte rendu.png" alt="img compte rendu">
+                        </a>
+                    </div>
+                    <div class="w32 wm47 réalisation">
+                        <a href="https://github.com/iliesD/mediatekformation"> <!--lien du site-->
+                            <img src="img/github.png" alt="img github">
+                        </a>
+                    </div>
+                    <div class="w32 wm47 réalisation">
+                        <a href="fichier/mission.pdf" download="mission.pdf">
+                            <!--lien de la fiche descriptive de la mission-->
+                            <img src="img/mission.png" alt="img mission">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="objectif">
+        <div class="section dark">
+            <div class="boxed text-center">
+                <h2>Compétences :</h2>
+            </div>
+            <div class="boxed">
+                <div class="flex toColumn mCenter">
+                    <div class="w40 wm100">
+                        <h2>BLOC 1 - Services informatiques aux organisations :</h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <p>
+                            <ul class="font-size">
+                                <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+                                <li>Gérer des sauvegardes</li>
+                                <li>Traiter des demandes concernant les applications</li>
+                                <li>Traiter des demandes concernant les services réseau et système, applicatifs</li>
+                                <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation</li>
+                                <li>Référencer les services en ligne de l’organisation et mesurer leur visibilité</li>
+                                <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+                                <li>Evaluer les indicateurs de suivi d’un projet et analyser les écarts</li>
+                                <li>Planifier les activités</li>
+                                <li>Déployer un service</li>
+                                <li>Réaliser les tests d’intégration et d’acceptation d’un service</li>
+                            </ul>   
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section dark">
+            <div class="boxed">
+                <div class="flex toColumn mCenter">
+                    <div class="w40 wm100">
+                        <h2>BLOC 2 - Conception et développement d'applications :</h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <p>
+                            <ul class="font-size">
+                                <li>Modéliser une solution applicative</li>
+                                <li>Exploiter les ressources du cadre applicatif (framework)</li>
+                                <li>Identifier, développer, utiliser ou adapter des composants logiciels</li>
+                                <li>Utiliser des composants d’accès aux données</li>
+                                <li>Intégrer en continu les versions d’une solution applicative</li>
+                                <li>Réaliser les tests nécessaires à la validation ou à la mise en production d’éléments adaptés ou développés</li>
+                                <li>Rédiger des documentations technique et d’utilisation d’une solution applicative</li>
+                                <li>Exploiter les fonctionnalités d’un environnement de développement et de tests</li>
+                                <li>Recueillir, analyser et mettre à jour les informations sur une version d’une solution applicative</li>
+                                <li>Analyser et corriger un dysfonctionnement.</li>
+                                <li>Évaluer la qualité d’une solution applicative</li>
+                                <li>Élaborer et réaliser les tests des éléments mis à jour</li>
+                                <li>Exploiter des données à l’aide d’un langage de requêtes</li>
+                                <li>Concevoir ou adapter une base de données</li>
+                                <li>Développer des fonctionnalités applicatives au sein d’un système de gestion de base de données</li>
+                                <li>Administrer et déployer une base de données</li>
+                            </ul>   
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="js/app.js"></script>
+
+</html>
